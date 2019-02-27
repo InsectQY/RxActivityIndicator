@@ -1,0 +1,32 @@
+PODS:
+  - RxActivityIndicator (0.1.1):
+    - RxCocoa
+    - RxSwift
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+
+DEPENDENCIES:
+  - RxActivityIndicator (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxActivityIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxActivityIndicator: 3ce24abf73d9608cad9925a3237397713d727bbe
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+
+PODFILE CHECKSUM: 7a47cffacc42d2ff6dd46a71e4a0f96e59a4b98a
+
+COCOAPODS: 1.6.1
