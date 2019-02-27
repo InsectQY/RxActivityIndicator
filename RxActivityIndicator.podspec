@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxActivityIndicator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Let the sample code in RxSwift support Cocopods and Carthage'
   s.description      = 'A small library that helps you keep track of operations progress'
 
@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.swift_version = "4.2"
   s.dependency 'RxSwift'
+  s.source_files = 'RxActivityIndicator/**'
 
 end
