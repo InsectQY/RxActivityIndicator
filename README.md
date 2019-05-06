@@ -11,7 +11,7 @@ RxActivityIndicator will make onNext with 'true' value when there is at least on
 
 ## Requirements
 
-- Swift 4.2
+- Swift 5.0
 - iOS 8 +
 
 ## Installation
