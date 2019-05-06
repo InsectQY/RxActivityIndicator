@@ -1,6 +1,6 @@
 # RxActivityIndicator
 
-![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/RxActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/RxActivityIndicator)
 [![License](https://img.shields.io/cocoapods/l/RxActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/RxActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/RxActivityIndicator.svg?style=flat)](https://cocoapods.org/pods/RxActivityIndicator)

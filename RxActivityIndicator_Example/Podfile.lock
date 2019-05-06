@@ -1,20 +1,21 @@
 PODS:
-  - RxActivityIndicator (0.1.1):
+  - RxActivityIndicator (0.2.0):
     - RxCocoa
     - RxSwift
-  - RxAtomic (4.4.1)
-  - RxCocoa (4.4.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.4.1):
-    - RxAtomic (~> 4.4)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
 
 DEPENDENCIES:
   - RxActivityIndicator (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - RxAtomic
     - RxCocoa
+    - RxRelay
     - RxSwift
 
 EXTERNAL SOURCES:
@@ -22,10 +23,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxActivityIndicator: 3ce24abf73d9608cad9925a3237397713d727bbe
-  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
-  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
-  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  RxActivityIndicator: 838628d4f332ff95cdfbeb9ea815c05f9b8b0171
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
 PODFILE CHECKSUM: 7a47cffacc42d2ff6dd46a71e4a0f96e59a4b98a
 
