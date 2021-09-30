@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxActivityIndicator'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Let the sample code in RxSwift support Cocopods and Carthage'
   s.description      = 'A small library that helps you keep track of operations progress'
 
@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Krunoslav Zaher' => 'krunoslav.zaher@gmail.com' }
   s.source           = { :git => 'https://github.com/InsectQY/RxActivityIndicator.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = "5.0"
 
-  s.dependency 'RxSwift', '~> 5.0'
-  s.dependency 'RxCocoa', '~> 5.0'
+  s.dependency 'RxSwift', '~> 6.0'
+  s.dependency 'RxCocoa', '~> 6.0'
   s.source_files = 'RxActivityIndicator/**'
 
 end

@@ -1,6 +1,6 @@
 {
   "name": "RxActivityIndicator",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "summary": "Let the sample code in RxSwift support Cocopods and Carthage",
   "description": "A small library that helps you keep track of operations progress",
   "homepage": "https://github.com/InsectQY/RxActivityIndicator/",
@@ -13,19 +13,20 @@
   },
   "source": {
     "git": "https://github.com/InsectQY/RxActivityIndicator.git",
-    "tag": "0.2.0"
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "dependencies": {
     "RxSwift": [
-
+      "~> 6.0"
     ],
     "RxCocoa": [
-
+      "~> 6.0"
     ]
   },
-  "source_files": "RxActivityIndicator/**"
+  "source_files": "RxActivityIndicator/**",
+  "swift_version": "5.0"
 }
